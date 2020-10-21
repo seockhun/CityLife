@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/drawing.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../Css/drawing.css">
     <title>Document</title>
 </head>
 <body>
-    <section>
-        <div class="monariza-img">
-            <img src="../Image/frame.png" alt="frame" class="first-frame">
-            <img src="../Image/monariza.jpg" alt="monariza" class="monariza">
+    <div id="carousel-slide">
+        <div class="blue-slide slides showing">1</div>
+        <div class="star slides">
+            <img src="../Image/star.jpeg" alt="star" class="">
         </div>
-        <div class="star-img">
-            <img src="../Image/frame.png" alt="frame" class="second-frame">
-            <img src="../Image/star.jpeg" alt="star" class="star"> 
+        <div class="blue-slide slides">
+            <img src="../Image/monariza.jpg" alt="monariza">
         </div>
-    </section>
+        <div class="purple-slide slides">4</div>
+        <div class="blue-slide slides">5</div>
+        
+        <button id="prev" class="button prev"><span><</span></button>
+        <button id="next" class="button next"><span>></span></button>
+        
+    </div>
+    <script src="../Js/drawing.js"></script>  
 </body>
 </html>

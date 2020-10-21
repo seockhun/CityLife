@@ -1,92 +1,83 @@
 body{
     margin: 0;
     background-color: #495A80;
-    overflow: hidden;
 }
 
-header > .light img{
+header > .light{
+    position: absolute;
+    display: flex;
+    top: -35%;
+    justify-content: space-around;
+    width: 100%;
+}
+header >.light img{
     width: 300px;
+}
+.shadowbox{
     position: absolute;
+    background-color: #FFFF0E;
+    top: 14%;
+    width: 300px;
+    height: 200px;
+    opacity: 0.5;
+    box-shadow: 100px 100px 100px #FFFF0E;
 }
-header > .light img:nth-of-type(1){
-    top: -35%;
-    left: 2%;
-    transform: rotate(356deg);
+.shadowbox:nth-of-type(2){
+    left: 33%;
 }
-header > .light img:nth-of-type(2){
-    top: -35%;
-    left: 38%;
+.shadowbox:nth-of-type(1){
+    left: 0;
 }
-header > .light img:nth-of-type(3){
-    top: -35%;
-    right: 3%;
-    transform: rotate(3deg);
+.shadowbox:nth-of-type(3){
+    right: 14%;
 }
 
-article > .masterpiece > .first-drawing > .first-frame{
-    position: absolute;
-    left: -2%;
-    top: 10%;
+.masterpiece{
+    display: flex;
+    justify-content: space-evenly;
+}
+.masterpiece a img{
+    padding-top: 30%;
 }
 .monariza{
     width: 244px;
     height: 360px;
-    position: absolute;
-    left: 7%;
-    top: 19.5%;
 }
 .monariza:hover{
     cursor: pointer;
 }
 .first-blockline{   
     top: 50%;
-    left: -4%;
+    left: 0;
 }
 
-article  > .masterpiece > .second-drawing > .second-frame{
-    transform: rotate(90deg);
-    position: absolute;
-    left: 31.5%;
-    top: 2%;
-}
 .star {
-    width: 360px;
+    width: 380px;
     height: 244px;
-    position: absolute;
-    left: 36.7%;
-    top: 20.5%;
 }
 .star:hover{
     cursor: pointer;
 }
 .second-blockline{
     top: 50%;
-    left: 29%;
+    left: 31%;
 }
 
-article > .masterpiece > .third-drawing > .third-frame{
-    position: absolute;
-    right: 0.2%;
-    top: 10%;
-}
 .sunflower {
     width: 244px;
     height: 358px;
-    position: absolute;
-    right: 9%;
-    top: 20%;
 }
 .sunflower:hover{
     cursor: pointer;
 }
 .third-blockline{
     top: 50%;
-    right: -4%;
+    right: 0;
 }
 
 .blockline{
-    width: 600px;
-    height: 300px;
+    width: 530px;
+    height: 250px;
     position: absolute;
     z-index: 1;
 }
