@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.first-frame{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 5%;
+    left: 28%;
+}
+.monariza{
+    position: absolute;
+    width: 294px;
+    top: 16%;
+    left: 38.7%;
+}
+
+.second-frame{
+    position: absolute;
+    width: 600px;
+    transform: rotate(90deg);
+    right: -20%;
+}
+.star{
+    width: 400px;
+    position: absolute;
+    
+}

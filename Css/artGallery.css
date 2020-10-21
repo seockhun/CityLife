@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #495A80;
+    overflow: hidden;
+}
+
+header > .light img{
+    width: 300px;
+    position: absolute;
+}
+header > .light img:nth-of-type(1){
+    top: -35%;
+    left: 2%;
+    transform: rotate(356deg);
+}
+header > .light img:nth-of-type(2){
+    top: -35%;
+    left: 38%;
+}
+header > .light img:nth-of-type(3){
+    top: -35%;
+    right: 3%;
+    transform: rotate(3deg);
+}
+
+article > .masterpiece > .first-drawing > .first-frame{
+    position: absolute;
+    left: -2%;
+    top: 10%;
+}
+.monariza{
+    width: 244px;
+    height: 360px;
+    position: absolute;
+    left: 7%;
+    top: 19.5%;
+}
+.monariza:hover{
+    cursor: pointer;
+}
+.first-blockline{   
+    top: 50%;
+    left: -4%;
+}
+
+article  > .masterpiece > .second-drawing > .second-frame{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 31.5%;
+    top: 2%;
+}
+.star {
+    width: 360px;
+    height: 244px;
+    position: absolute;
+    left: 36.7%;
+    top: 20.5%;
+}
+.star:hover{
+    cursor: pointer;
+}
+.second-blockline{
+    top: 50%;
+    left: 29%;
+}
+
+article > .masterpiece > .third-drawing > .third-frame{
+    position: absolute;
+    right: 0.2%;
+    top: 10%;
+}
+.sunflower {
+    width: 244px;
+    height: 358px;
+    position: absolute;
+    right: 9%;
+    top: 20%;
+}
+.sunflower:hover{
+    cursor: pointer;
+}
+.third-blockline{
+    top: 50%;
+    right: -4%;
+}
+
+.blockline{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
